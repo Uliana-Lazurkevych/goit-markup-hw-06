@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- header -->
@@ -37,6 +37,11 @@
             </li>
           </ul>
         </nav>
+        <button class="mobile-menu-open-btn" type="button" aria-label="mobile menu open icon">
+          <svg class="mobile-menu-open-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
         <address class="page-navigation">
           <ul class="adress list">
             <li class="address-item">
@@ -120,7 +125,7 @@
       </section>
 
       <!-- Our Team -->
-      <section class="our-team-section section">
+      <!-- <section class="our-team-section section">
         <div class="our-team-container container">
           <h2 class="our-team-title">Our Team</h2>
           <ul class="our-team-list list">
@@ -298,10 +303,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
+
+
       <!-- Portfolio -->
 
-      <section class="portfolio-section section">
+      <!-- <section class="portfolio-section section">
         <div class="portfolio-container container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list list">
@@ -434,9 +441,11 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
+
+
     <!-- Footer -->
-    <footer class="footer-section">
+    <!-- <footer class="footer-section">
       <div class="footer-container container">
         <div class="logo-footer-container">
           <a href="./index.html" class="logo-footer link"
@@ -503,9 +512,10 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
+
     <!-- Backdrop -->
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg
@@ -618,6 +628,45 @@
           <button class="review-form-submit-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
-  </body>
+    </div> -->
+
+<!--========= Mobile menu ======== -->
+<div class="mobile-menu-wraper">
+  <div class="container mobile-menu-container">
+    <button class="mobile-menu-close-btn" type="button">
+      <svg class="mobile-menu-close-btn-icon" width="8" height="8" aria-level="mobile menu close icon">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav class="mobile-menu-navigation">
+      <ul class="mobile-menu list">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="">Contacts</a>
+        </li>
+      </ul>
+    
+      <address class="page-navigation-mobile">
+        <ul class="adress-mobile list">
+          <li class="mobile-address-item">
+            <a class="address-link-mobile link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="mobile-address-item">
+            <a class="address-link-mobile link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </nav>
+  </div>
+</div>
+</body>
 </html>
