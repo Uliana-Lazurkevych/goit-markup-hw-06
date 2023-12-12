@@ -887,10 +887,11 @@ flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 72px;
 padding-left: 0;
+display: flex; 
   }
 
   .advantages-list-item {
-    width: calc((100% - 24px) / 4);
+    calc((100% - 24px) / 2);
   }
 
 .item-container {
