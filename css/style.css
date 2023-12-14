@@ -237,6 +237,10 @@ button {
   background-color: var(--cloud);
 }
 
+.our-team-container {
+  max-width: 584px;
+}
+
 .our-team-list {
   display: inline-block;
   gap: 24px;
@@ -328,6 +332,8 @@ button {
 .social-link-team:focus {
   background-color: var(--ocean);
 }
+
+
 
 /* Portfolio */
 .portfolio-title {
@@ -1053,6 +1059,12 @@ button {
     align-items: center;
   }
 
+  .header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
   .menu {
     display: flex;
     gap: 40px;
@@ -1172,7 +1184,10 @@ button {
 
   .advantages-list-item {
     width: calc((100% - 24px) / 2);
+    margin-bottom: 0;
   }
+
+
 
   .item-container {
     width: 356px;
@@ -1233,16 +1248,17 @@ button {
     padding: 96px 0;
   }
 
+
   .footer-container {
     max-width: 584px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 72px;
+    gap:72px 24px;
   }
 
   .logo-footer-container {
-    margin-right: 108px;
+
     text-align: left;
   }
 
