@@ -1595,12 +1595,15 @@ button {
 
 /* Footer desktop */
 
+
 .footer-section {
   padding: 100px 0;
 }
 
+
 .logo-footer-container {
   margin-right: 120px;
+
 }
 
 .footer-container {
@@ -1625,7 +1628,7 @@ button {
 }
 
 .subscribe {
-  margin-left: 80px;
+  justify-content: inherit;
 }
 
 .footer-subscribe {
@@ -1666,6 +1669,4 @@ button {
   border-radius: 4px;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 }
