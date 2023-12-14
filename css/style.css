@@ -1628,7 +1628,7 @@ button {
 }
 
 .subscribe {
-  justify-content: inherit;
+  justify-content: initial;
 }
 
 .footer-subscribe {
