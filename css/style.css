@@ -1210,12 +1210,18 @@ button {
 
   /* Our Team Table */
 
+
+  .our-team-container.container {
+    max-width: 584px;
+}
+
   .our-team-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 64px;
     column-gap: 24px;
+    margin-left: 0;
   }
 
   .advantages-list-item {
@@ -1557,7 +1563,9 @@ button {
 
 /* Our team desktop */
 
-
+.our-team-container.container {
+  max-width: 1158px;
+}
 
 .our-team-list {
   display: flex;
@@ -1601,24 +1609,9 @@ button {
 }
 
 
-
-
-
-
-
-
-
 .footer-paragraph {
   text-align: left;
 }
-
-
-
-
-
-
-
-
 
 .social-list {
   padding-left: 0;
@@ -1637,10 +1630,7 @@ button {
 
 .footer-subscribe {
   text-align: left;
-
 }
-
-
 
 .form-input {
   width: 100%;
@@ -1657,8 +1647,6 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0.3;
 }
-
-
 
 .footer-button {
   width: 165px;
