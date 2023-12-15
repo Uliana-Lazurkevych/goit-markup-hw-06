@@ -1125,7 +1125,9 @@ button {
   }
 
   .adress {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .address-item {
@@ -1462,6 +1464,7 @@ button {
   
   .adress {
     display: flex;
+    flex-direction: row; 
     gap: 40px;
   }
   
